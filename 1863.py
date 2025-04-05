@@ -17,7 +17,7 @@ class Solution:
         total = 0
         def countXORSum(curr_value, curr_idx):
             nonlocal total
-            if curr_idx == len(nums):
+            if curr_idx >= len(nums):
                 return
             for idx, num in enumerate(nums[curr_idx:]):
                 total += curr_value^num
