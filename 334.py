@@ -6,8 +6,8 @@ class Solution:
         # Time complexity, O(n) : Just one for loop
         # Space complexity, O(1) : We are not using any extra space
         # Performance:
-        # Runtime: faster than 99.6%.
-        # Memory Usage: less than 99.98%.
+        # Runtime: faster than 96.03%.
+        # Memory Usage: less than 64.85%.
         first = float('inf')
         second = float('inf')
         for num in nums:
