@@ -25,6 +25,9 @@ class Solution:
             # CUz we check initially, in the stack, since this is DFS, we go through left, left, left, the stack goes like this (for example 1:
             # 10, 5 , 3, 3, -2, 2, 1, -3, 11
             # ITs quite similar to 2 sum remember that
+            # Also why does this work?
+            # lets cejck, in the path we have 5,3 which is 8 and that is the targetSum, 
+            # if we check the prefix sum, it should be 18 and 18 - 8 = 10, which is stored in the dictionary (with value 1)
 
             currentTotal = prefix.get(currSum - targetSum, 0)
             prefix[currSum] = prefix.get(currSum, 0) + 1
